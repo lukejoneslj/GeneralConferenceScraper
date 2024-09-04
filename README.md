@@ -36,8 +36,3 @@ Scraping and cleaning the entire set of conference talks can be time-consuming. 
 ## Acknowledgments
 This code is based on the original work found in the [LDS Conference Scraper](https://github.com/johnmwood/LDS-Conference-Scraper) GitHub repository by [johnmwood](https://github.com/johnmwood).
 """
-
-# Save to a .md file
-file_path = '/mnt/data/README.md'
-with open(file_path, 'w') as file:
-    file.write(readme_content)
