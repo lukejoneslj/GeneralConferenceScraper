@@ -1,6 +1,6 @@
 # LDS General Conference Talk Scraper
 
-This project is a web scraper designed to extract data from the [Latter-day Saint General Conference talks](https://www.churchofjesuschrist.org/study/general-conference?lang=eng) website. The script navigates through the site to gather details from individual conference sessions, including the title, speaker, calling, and content of each talk, along with any associated footnotes. The scraped data is then stored in a CSV file, making it easier to analyze or reference.
+This project is a web scraper designed to extract data from the [LDS General Conference talks](https://www.churchofjesuschrist.org/study/general-conference?lang=eng) website. The script navigates through the site to gather details from individual conference sessions, including the title, speaker, calling, and content of each talk, along with any associated footnotes. The scraped data is then stored in a CSV file, making it easier to analyze or reference.
 
 ## Key Features
 - Scrapes conference talks dating back several decades.
@@ -21,3 +21,5 @@ This project is a web scraper designed to extract data from the [Latter-day Sain
 ## Note
 Scraping the entire set of conference talks can be time-consuming. It's recommended to periodically save or download your output files during the process to prevent data loss in case of session interruptions.
 
+## Acknowledgments
+This code is based on the original work found in the [LDS Conference Scraper](https://github.com/johnmwood/LDS-Conference-Scraper) GitHub repository by [johnmwood](https://github.com/johnmwood). The current implementation expands on that foundation with additional features and optimizations.
