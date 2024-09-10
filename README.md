@@ -20,7 +20,7 @@ This project is a web scraper designed to extract and clean data from the [Gener
 
 ## Running in Google Colab
 - This script can be easily run in Google Colab.
-- The scraping and cleaning process can take anywhere from 30 minutes to an hour to complete, depending on the number of conferences and talks being processed.
+- The scraping and cleaning process takes about 10 minutes in Colab.
 
 ## Data Cleaning
 After scraping, the data undergoes several cleaning operations:
@@ -29,9 +29,6 @@ After scraping, the data undergoes several cleaning operations:
 - Standardization of callings like "Quorum of the 12" and "Seventy."
 - Removal of speaker titles such as "Elder," "President," "Sister," etc.
 - The cleaned data is saved in `cleaned_conference_talks.csv`.
-
-## Note
-Scraping and cleaning the entire set of conference talks can be time-consuming. It's recommended to periodically save or download your output files during the process to prevent data loss in case of session interruptions.
 
 ## Acknowledgments
 This code is based on the original work found in the [LDS Conference Scraper](https://github.com/johnmwood/LDS-Conference-Scraper) GitHub repository by [johnmwood](https://github.com/johnmwood).
